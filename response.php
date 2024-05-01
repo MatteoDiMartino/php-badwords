@@ -1,6 +1,19 @@
 <?php 
 
 $getTxt = $_GET['userTxt'];
+
+$getTxt = str_replace('caz','***', $getTxt);
+$getTxt = str_replace('mer','***', $getTxt);
+$getTxt = str_replace('cul','***', $getTxt);
+$getTxt = str_replace('dio','***', $getTxt);
+$getTxt = str_replace('str','***', $getTxt);
+$getTxt = str_replace('fro','***', $getTxt);
+$getTxt = str_replace('ric','***', $getTxt);
+$getTxt = str_replace('neg','***', $getTxt);
+
+
+
+
 ?>
 
 <!DOCTYPE html>
