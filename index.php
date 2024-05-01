@@ -21,7 +21,7 @@
                         </label>
                 
                         <div>
-                            <input type="text" class="my-2 rounded-1 px-2" required>
+                            <input type="text" class="my-2 rounded-1 px-2" required name="userTxt">
                         </div>
 
                         <button type="submit" class="rounded-1 border-0 bg-black text-white px-3 py-1">Invia</button>
